@@ -14,6 +14,7 @@ def scrape_info():
 
     # Visit visitcostarica.herokuapp.com
     url = "https://visitcostarica.herokuapp.com/"
+
     browser.visit(url)
 
     time.sleep(1)
